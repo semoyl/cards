@@ -3,6 +3,14 @@
     --cor-background: branco;
 }
 
+.montserrat-fonte {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
 *{
     padding: 0;
     margin: 0;
@@ -51,8 +59,31 @@ a{
 .cards .quadrado{
     background-color: var(--cor-background);
     gap: 50px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .cards .quadrado img{
     height: 300px;
 }
+
+.cards .quadrado .tamanhos li{
+    transition: .5s;
+}
+
+.cards .quadrado .tamanhos li:hover{
+    background-color: red;
+}
+
+.cards .quadrado button{
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    width: 250px;
+    font-size: 20px;
+}
+
+
+
