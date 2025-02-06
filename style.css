@@ -1,5 +1,6 @@
 :root{
-    --cor-hover: branco
+    --cor-hover: branco;
+    --cor-background: branco;
 }
 
 *{
@@ -40,4 +41,18 @@ a{
 
 .menu img{
     height: 20px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 150px;
+}
+
+.cards .quadrado{
+    background-color: var(--cor-background);
+    gap: 50px;
+}
+
+.cards .quadrado img{
+    height: 300px;
 }

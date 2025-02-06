@@ -7,6 +7,7 @@ const disciplinas = [
     {nome:'PWFE', icon:'telinha.png', cor: 'red'}
 ]
 
+
 function criarMenu(disciplina) {
     const novoItem = document.createElement('li')
     const novaImagem = document.createElement('img')
@@ -22,5 +23,56 @@ function criarMenu(disciplina) {
 
     lista.appendChild(novoItem)
 }
+
+const produtos = [
+    {nome: 'Uniforme Home SPFC',
+        descricao: 'Camiseta usada pelo São paulo futebol clube em partidas jogadas em casa', 
+        icon:'camisa1.jpg', 
+        cor:'black', 
+        preco:'R$ 499,99', 
+        tamanhos: ['P', 'M', 'G', 'EG', 'EGG']},
+    {nome: 'Uniforme Away SPFC', 
+        descricao: 'Camiseta usada pelo São paulo futebol clube em partidas jogadas fora de casa',
+        icon:'camisa2.jpg', 
+        cor:'red', 
+        preco: 'R$ 349,99',
+        tamanhos: ['P', 'M', 'G', 'EG', 'EGG', 'GG2']},
+    {nome: 
+        'Uniforme Third SPFC', 
+        descricao: 'Camiseta usada pelo São paulo futebol clube em partidas',
+        icon:'camisa3.jpg', 
+        cor:'white', 
+        preco: 'R$ 314,90',
+        tamanhos: ['P', 'M', 'G', 'EG', 'EGG', 'GG2']},
+    {nome: 
+        'Jaqueta Tricolor 2025', 
+        descricao: 'Jaqueta usada pelo São Paulo Futebol Clube em momentos do Pré-Jogo em 2025',
+        icon:'jaqueta1.jpg', 
+        cor:'grey', 
+        preco: 'R$ 427,49',
+        tamanhos: ['P', 'M', 'G', 'EG', 'EGG', 'GG2', 'GG3']
+    },
+    {nome: 
+        'Jaqueta Tricolor 2024', 
+        descricao: 'Jaqueta usada pelo São Paulo Futebol Clube em momentos do Pré-Jogo em 2024',
+        icon:'jaqueta2.jpg', 
+        cor:'red', 
+        preco: 'R$ 499,99',
+        tamanhos: ['P', 'M', 'G', 'EG', 'EGG', 'GG2', 'GG3']
+    }
+]
+
+function criarMain(produto){
+    const novoProduto = document.createElement('li')
+    const novaFoto = document.createElement('img')
+    const novoTitulo = document.createElement('h1')
+    const listar = document.getElementById('cards') 
+
+    novoProduto.textContent = produto.nome
+    novaFoto.src = `./imgProdutos/$produto.disciplina.icon}`
+
+
+}
+
 
 disciplinas.forEach(criarMenu)
