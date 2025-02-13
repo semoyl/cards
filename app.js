@@ -26,20 +26,20 @@ function criarMenu(disciplina) {
 
 const produtos = [
     {nome: 'Uniforme Home SPFC',
-        descricao: 'Camiseta usada pelo São paulo futebol clube em partidas jogadas em casa', 
+        descricao: 'Camiseta usada pelo São paulo futebol clube em partidas jogadas em casa, 2025/2026', 
         icon:'camisa1.png', 
         cor:'black', 
         preco:'R$ 499,99', 
         tamanhos: ['P', 'M', 'G', 'EG', 'EGG', 'GG2', 'GG3']},
     {nome: 'Uniforme Away SPFC', 
-        descricao: 'Camiseta usada pelo São paulo futebol clube em partidas jogadas fora de casa',
+        descricao: 'Camiseta usada pelo São paulo futebol clube em partidas jogadas fora de casa, 2024/2025',
         icon:'camisa2.jpg', 
         cor:'red', 
         preco: 'R$ 349,99',
         tamanhos: ['P', 'M', 'G', 'EG', 'EGG', 'GG2', 'GG3']},
     {nome: 
         'Uniforme Third SPFC', 
-        descricao: 'Camiseta usada pelo São paulo futebol clube em partidas',
+        descricao: 'Camiseta usada pelo São paulo futebol clube em partidas disputadas em campo neutro',
         icon:'camisa3.jpg', 
         cor:'black', 
         preco: 'R$ 314,90',
