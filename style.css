@@ -3,12 +3,8 @@
     --cor-background: branco;
 }
 
-.montserrat-fonte {
-    font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
+
+
   
 
 *{
@@ -51,38 +47,69 @@ a{
     height: 20px;
 }
 
+body{
+    background-color: darkred;
+}
+
 .cards{
     display: flex;
-    margin-top: 150px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cards .quadrado{
     background-color: var(--cor-background);
-    gap: 50px;
     font-size: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-right: 50px;
+    margin-left: 30px;
+    width: 30vw;
+    border-radius: 10px;
+    display: flex;
+    height: 650px;
+}
+
+.cards .quadrado div{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 550px;
+}
+
+.cards .quadrado span{
+    font-size: 16px;
 }
 
 .cards .quadrado img{
-    height: 300px;
+    height: 270px;
+    width: 270px;
 }
 
 .cards .quadrado .tamanhos li{
     transition: .5s;
+    font-size: 16px;
 }
 
 .cards .quadrado .tamanhos li:hover{
     background-color: red;
 }
 
+.cards .quadrado h1{
+    font-size: 24px;
+    margin-top: 10px;
+    color: var(--cor-background);
+}
+
 .cards .quadrado button{
     background-color: black;
-    margin-top: 50px;
     color: white;
-    width: 250px;
-    font-size: 20px;
+    width: 100%;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 
